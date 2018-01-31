@@ -14,6 +14,11 @@
 		A7BAA0352021F7DA007E38A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BAA0332021F7DA007E38A6 /* LaunchScreen.storyboard */; };
 		A7BAA0402021F7DB007E38A6 /* SwiftTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAA03F2021F7DB007E38A6 /* SwiftTestTests.swift */; };
 		A7BAA04B2021F7DB007E38A6 /* SwiftTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAA04A2021F7DB007E38A6 /* SwiftTestUITests.swift */; };
+		A7BAA05A20220D95007E38A6 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAA05820220D95007E38A6 /* TextFieldTableViewCell.swift */; };
+		A7BAA05B20220D95007E38A6 /* TextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7BAA05920220D95007E38A6 /* TextFieldTableViewCell.xib */; };
+		A7BAA05E20220DB6007E38A6 /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAA05C20220DB6007E38A6 /* LabelTableViewCell.swift */; };
+		A7BAA05F20220DB6007E38A6 /* LabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7BAA05D20220DB6007E38A6 /* LabelTableViewCell.xib */; };
+		A7BAA06120220E44007E38A6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAA06020220E44007E38A6 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		A7BAA0462021F7DB007E38A6 /* SwiftTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BAA04A2021F7DB007E38A6 /* SwiftTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestUITests.swift; sourceTree = "<group>"; };
 		A7BAA04C2021F7DB007E38A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7BAA05820220D95007E38A6 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		A7BAA05920220D95007E38A6 /* TextFieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldTableViewCell.xib; sourceTree = "<group>"; };
+		A7BAA05C20220DB6007E38A6 /* LabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTableViewCell.swift; sourceTree = "<group>"; };
+		A7BAA05D20220DB6007E38A6 /* LabelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelTableViewCell.xib; sourceTree = "<group>"; };
+		A7BAA06020220E44007E38A6 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				A7BAA0312021F7DA007E38A6 /* Assets.xcassets */,
 				A7BAA0332021F7DA007E38A6 /* LaunchScreen.storyboard */,
 				A7BAA0362021F7DA007E38A6 /* Info.plist */,
+				A7BAA05820220D95007E38A6 /* TextFieldTableViewCell.swift */,
+				A7BAA05920220D95007E38A6 /* TextFieldTableViewCell.xib */,
+				A7BAA05C20220DB6007E38A6 /* LabelTableViewCell.swift */,
+				A7BAA05D20220DB6007E38A6 /* LabelTableViewCell.xib */,
+				A7BAA06020220E44007E38A6 /* TableViewController.swift */,
 			);
 			path = SwiftTest;
 			sourceTree = "<group>";
@@ -233,8 +248,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7BAA0352021F7DA007E38A6 /* LaunchScreen.storyboard in Resources */,
+				A7BAA05F20220DB6007E38A6 /* LabelTableViewCell.xib in Resources */,
 				A7BAA0322021F7DA007E38A6 /* Assets.xcassets in Resources */,
 				A7BAA0302021F7DA007E38A6 /* Main.storyboard in Resources */,
+				A7BAA05B20220D95007E38A6 /* TextFieldTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7BAA05A20220D95007E38A6 /* TextFieldTableViewCell.swift in Sources */,
 				A7BAA02D2021F7DA007E38A6 /* ViewController.swift in Sources */,
+				A7BAA05E20220DB6007E38A6 /* LabelTableViewCell.swift in Sources */,
+				A7BAA06120220E44007E38A6 /* TableViewController.swift in Sources */,
 				A7BAA02B2021F7DA007E38A6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
